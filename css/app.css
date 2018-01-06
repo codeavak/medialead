@@ -1,0 +1,142 @@
+
+.top-bar {
+  background: #333;
+  COLOR: #333;
+  font-size: small;
+}
+
+.header {
+  background-image:url('/img/bg1.png');
+  background-color: #333;
+}
+
+.top-bar .menu {
+  background: #333;
+}
+
+#myLogo {
+  width: 70%;
+}
+
+.orbit-wrapper {
+  height: 500px;
+  width: auto;
+}
+
+.orbit-container {
+  height: 500px;
+  width: auto;
+}
+
+.orbit-container img {
+  height: 800px;
+  margin-top: -100px;
+}
+
+.orbit-slide {
+  height: 500px;
+  width: auto;
+}
+
+.orbit-bullets {
+  display: none;
+}
+
+.icon1 {
+  font-size: 3em;
+  color: #3b5998;
+}
+
+.icon2 {
+  font-size: 3em;
+  color: #00aced;
+}
+
+.icon3 {
+  font-size: 3em;
+  color: #007bb6;
+}
+
+.icon4 {
+  font-size: 3em;
+  color: #dd4b39;
+}
+
+.icons {
+  font-size: 3em;
+  color: #333;
+}
+
+.iconRed {
+  font-size: 1em;
+  color: red;
+}
+
+.social li {
+  padding:2%;
+}
+
+.section1 {
+  padding-top: 1%;
+  background-color: #808080;
+  background-image:url('/img/bg1.png');
+}
+
+footer {
+  padding: 1%;
+  background-color: #808080;
+  font-size: small;
+  background-image:url('/img/bg1.png');
+}
+
+.orbit-caption {
+  padding: 1% 20% 1% 20%;
+}
+.circle-frame{
+  background-color:#333;
+  padding:10px;
+  border-radius:100%;
+}
+.section-icon{
+  clear:both;
+  margin:0 auto 20px auto;
+  width:20%;
+  background-color:#333;
+  padding:10px;
+  border-radius:100%;
+}
+
+.section-icon i {color: #0066FF;
+}
+
+.aboutmain{
+  padding:10px 20px;
+  margin-top:15px;
+  
+  border-radius:10px;
+}
+.aboutText{
+  height:70vh;
+  padding:10px 20px;
+  margin-top:15px;
+  border-radius:10px;
+}
+.menu-title{
+  background-color:#42a5db;
+  padding:3px;
+}
+
+.accordion-title, .accordion-title:hover, .accordion-title:active{
+  font-size: 36px;
+  color:white!important;
+  background-color:#42a5db!important;
+  padding:3px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1224px) {
+  .orbit-container img {
+    width: auto;
+    height:auto;
+    margin-top: -100px;
+  }
+}
